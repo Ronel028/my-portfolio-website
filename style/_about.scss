@@ -1,0 +1,28 @@
+
+@import "variables";
+
+.about{
+    background-color: $dark-green;
+    padding-bottom: toRem(133);
+
+    .about-me{
+        h3{
+            font-size: toRem(24);
+            font-weight: $font-semi-bold;
+            color: $light-green;
+            margin-bottom: toRem(42);
+        }
+        p{
+            font-size: toRem(18);
+            font-weight: $font-regular;
+            text-align: justify;
+            margin-bottom: toRem(56);
+        }
+    }
+
+    // image
+    .image{
+        width: 100%;
+        // height: toRem(366);
+    }
+}

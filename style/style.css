@@ -1,0 +1,169 @@
+header {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #020912;
+  position: relative;
+}
+
+header .hero-content {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .hero-content h1 {
+  font-size: 3.1875rem;
+  font-weight: 400;
+}
+
+header .hero-content h1 span {
+  color: #98E8CD;
+}
+
+header .hero-content p {
+  font-size: 1.4375rem;
+  font-weight: 400;
+  margin-bottom: 9.6875rem;
+}
+
+header .hero-content a {
+  font-size: 0.75rem;
+  color: #98E8CD;
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border: 1px solid #98E8CD;
+  border-radius: 2.5rem;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+header .hero-content a i {
+  margin-left: 10px;
+}
+
+header .hero-content a:hover {
+  background-color: #98E8CD;
+  color: #020912;
+}
+
+.about {
+  background-color: #020912;
+  padding-bottom: 8.3125rem;
+}
+
+.about .about-me h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #98E8CD;
+  margin-bottom: 2.625rem;
+}
+
+.about .about-me p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 3.5rem;
+}
+
+.about .image {
+  width: 100%;
+}
+
+.credentials {
+  background-color: #020912;
+  padding-bottom: 8.3125rem;
+}
+
+.credentials .credentials-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.credentials .credentials-content .attainment-content {
+  justify-self: flex-end;
+}
+
+.credentials .credentials-content .attainment-content .education-skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  -webkit-column-gap: 3.0625rem;
+          column-gap: 3.0625rem;
+  row-gap: 7.875rem;
+}
+
+.credentials .credentials-content .attainment-content .education-skills .degree, .credentials .credentials-content .attainment-content .education-skills ul {
+  margin-top: 0.3125rem;
+}
+
+.credentials .credentials-content .attainment-content .education-skills h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #98E8CD;
+}
+
+.credentials .credentials-content .attainment-content .education-skills p, .credentials .credentials-content .attainment-content .education-skills li {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.credentials .credentials-content .attainment-content .education-skills p.date-graduate {
+  font-size: 1rem;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 4.0625rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 80.5625rem;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+
+@import "variables";
+
+header{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: $dark-green;
+    position: relative;
+
+    .hero-content{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1{
+            font-size: toRem(51);
+            font-weight: $font-regular;
+
+            span{
+                color: $light-green;
+            }
+        }
+
+        p{
+            font-size: toRem(23);
+            font-weight: $font-regular;
+            margin-bottom: toRem(155);
+        }
+
+        a{
+            font-size: toRem(12);
+            color: $light-green;
+            display: inline-block;
+            padding: toRem(12) toRem(32);
+            border: 1px solid $light-green;
+            border-radius: toRem(40);
+            transition: background 0.5s ease-in-out;
+
+            i{
+                margin-left: 10px;
+            }
+
+            &:hover{
+                background-color: $light-green;
+                color: $dark-green;
+            }
+        }
+    }
+}
