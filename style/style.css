@@ -108,7 +108,7 @@ header .hero-content a:hover {
 }
 
 .credentials .credentials-content .attainment-content .education-skills .degree, .credentials .credentials-content .attainment-content .education-skills ul {
-  margin-top: 0.3125rem;
+  padding-left: 0;
 }
 
 .credentials .credentials-content .attainment-content .education-skills h4 {
@@ -125,6 +125,114 @@ header .hero-content a:hover {
 
 .credentials .credentials-content .attainment-content .education-skills p.date-graduate {
   font-size: 1rem;
+}
+
+.personal-project {
+  background-color: #020912;
+  padding-bottom: 8.3125rem;
+}
+
+.personal-project .project-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 2.5rem;
+          column-gap: 2.5rem;
+}
+
+.personal-project .project-list .project-container {
+  border: 1px solid #98E8CD;
+  height: auto;
+}
+
+.personal-project .project-list .project-container .image-container {
+  margin-bottom: 1rem;
+}
+
+.personal-project .project-list .project-container .project-details {
+  padding: 0.9375rem 1.25rem;
+}
+
+.personal-project .project-list .project-container .project-details h5 {
+  font-size: 1.25rem;
+  color: #98E8CD;
+  font-weight: 500;
+  margin-bottom: 0.9375rem;
+}
+
+.personal-project .project-list .project-container .project-details p {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 0.9375rem;
+}
+
+.personal-project .project-list .project-container .project-details a {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.personal-project .project-list .project-container .project-details a:hover {
+  color: #98E8CD;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #020912;
+  padding-bottom: 8.3125rem;
+}
+
+footer .contact-info .contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+  row-gap: 2rem;
+}
+
+footer .contact-info .contact .email p, footer .contact-info .contact .phone p {
+  font-size: 1.5rem;
+  color: #98E8CD;
+  font-weight: 500;
+}
+
+footer .contact-info .contact .email p:first-child, footer .contact-info .contact .phone p:first-child {
+  color: #FFFFFF;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+footer .contact-info .contact .social-media p {
+  color: #FFFFFF;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+footer .contact-info .contact .social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.6875rem;
+}
+
+footer .contact-info .contact .social-media ul li a {
+  color: #98E8CD;
+  font-size: 1.5rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+footer .contact-info .contact .social-media ul li a:hover {
+  color: #FFFFFF;
 }
 
 *, *::after, *::before {
@@ -156,9 +264,11 @@ h2 {
 
 img {
   width: 100%;
-  height: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 
 .wrapper {

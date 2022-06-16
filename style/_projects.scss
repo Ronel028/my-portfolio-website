@@ -1,0 +1,48 @@
+
+@import "variables";
+
+.personal-project{
+    background-color: $dark-green;
+    padding-bottom: toRem(133);
+
+    .project-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: toRem(40);
+
+        .project-container{
+            border: 1px solid $light-green;
+            height: auto;
+            .image-container{
+                margin-bottom: toRem(16);
+            }
+    
+            // details
+            .project-details{
+                padding: toRem(15) toRem(20);
+                h5{
+                   font-size: toRem(20);
+                   color: $light-green;
+                   font-weight: $font-medium;
+                   margin-bottom: toRem(15);
+                }
+                p{
+                    font-size: toRem(14);
+                    color: $white;
+                    font-weight: $font-regular;
+                    text-align: justify;
+                    margin-bottom: toRem(15);
+                }
+                a{
+                    font-size: toRem(14);
+                    color: $white;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        color: $light-green;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        } 
+    }
+}
